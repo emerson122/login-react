@@ -4,7 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// se selecciona el div que esta en la carperta src/index.html
+const root = ReactDOM.createRoot(document.getElementById('root')); //elemento raiz
+
+//funcion render espera elementos html
 root.render(
   <React.StrictMode>
     <App />
